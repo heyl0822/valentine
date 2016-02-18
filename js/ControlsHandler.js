@@ -8,7 +8,7 @@ var ControlsHandler = function() {
 		volSens:1,
 		beatHoldTime:40,
 		beatDecayRate:0.97,
-		sampleURL: "sample.mp3"
+		sampleURL: "../music/sample.mp3"
 	};
 
 	function init(){
