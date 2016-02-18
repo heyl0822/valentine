@@ -9,7 +9,7 @@ var AudioHandler = function() {
 	var levelHistory = []; //last 256 ave norm levels
 	var bpmStart; 
 
-	var sampleAudioURL = "sample.mp3";
+	var sampleAudioURL = "../music/sample.mp3";
 	var BEAT_HOLD_TIME = 40; //num of frames to hold a beat
 	var BEAT_DECAY_RATE = 0.98;
 	var BEAT_MIN = 0.15; //a volume less than this is no beat
